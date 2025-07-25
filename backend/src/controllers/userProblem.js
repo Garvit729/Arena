@@ -198,8 +198,9 @@ const getProblemById = async(req,res)=>{
 }
 
 const getAllProblem = async(req,res)=>{
-
+  console.log("hi1");
   try{
+    console.log("hi2");
      
     const getProblem = await Problem.find({}).select('_id title difficulty tags');
 
