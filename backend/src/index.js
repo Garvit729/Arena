@@ -14,7 +14,7 @@ const cors = require('cors')
 // console.log("Hello")
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://arena-1-ogtu.onrender.com',
     credentials: true 
 }))
 
